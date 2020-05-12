@@ -1,0 +1,31 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+      include ../static/styleReach.css
+block content
+    div.container
+        h1 Reach Us...
+            h2 Kolkata Office:(Head)
+            p Email Id: dance'o'academiakol@gmail.com
+            p Phone Number: +91 9152104523
+            h2 Agartala Office:
+            p Email Id: dance'o'academiaagt@yahoo.com
+            p Phone Number: +91 9974654519
+            h2 Gurugram Office:
+            p Email Id: dance'o'academiadel@gmail.com
+            p Phone Number: +91 9168745610
+            h2 Andheri Office:
+            p Email Id: dance'o'academiabom@yahoo.com
+            p Phone Number: +91 9189743600
+    section#followSection
+        h2 Follow Us on...
+        div#follow
+            img(src="/static/img/fb.png",alt="Facebook", class="spImage")
+            img(src="/static/img/insta.png",alt="Instagram", class="spImage")
+            img(src="/static/img/twitter.png",alt="Twitter", class="spImage")
+            img(src="/static/img/link.png",alt="LinkedIn", class="spImage")        

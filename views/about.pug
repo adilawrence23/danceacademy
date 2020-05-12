@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+      include ../static/styleAbout.css
+block content
+    div.container
+        h1 About Us...
+            h2 Welcome to Dance'O'Academia
+            h3 Dance is not a competition, it's a passion...
+        p Inspired by her mother (late) dipti dev, the hindustani classical singer of All India Radio, Nandita dev took over the charge of navrang art & culture centre - established fifty years ago by her mother. The institute at present impart training of classical & other dances under nandita dev as well as indian classical music, light music, rabindra sangeet drawing, guitar, key board, tabla, harmonium etc. Dances include indian classical dances, creative dances, folk dances, rabindra dances, modern, contemporary & other provisional dances & above all the art of chorcography, the art of costume design for various dances, make-up art, solo & group dance & art of presentation to advanced students.
+          students both male & female right from kids to adults are inducted to instill above all sense of art of dance & music & to prepare themselves for examinations for pracheen kala kendra, chandighar & prayag sangit samiti, allahabad as well as for various national & international competitions in different part of india & abroad. Our ultimate aim is to make the students self sufficient for entering into a good career in dance, & music. Hundreds of students not only passed the final 5th/6th year examinations from the institute & obtained tiles of sangeet prabhakar & sangeet bibhakar and with stunning results with galore of distinctions & thereafter established their own institution with great success, all most all of them turn to us for guidance in running their institutions but also for further advance training & studies & acquired name & fame. Numerous of navrangs students have been successful in national & international competitions as well as tv shows. For advanced students (graduated / post graduated) the gurukul system is also available. The institute also arrange regular stage performances in city's prestigious auditoriums by its students as well as in different parts of the country.
+        
+    section#missionsSection
+        h1 Our Classes..
+            h2 Choose your style
+        div.cards
+            h3 Classical
+            div.cards-box
+                div.cards-img
+                    img(src="/static/img/1.png")
+                
+                div.cards-content
+                    p Dancing is like dreaming with your feet!!
+        div.cards
+            h3 Hip-Hop
+            div.cards-box
+                div.cards-img
+                    img(src="/static/img/2.png")
+                
+                div.cards-content
+                    p People come to see beauty, and I dance to give it to them...
+        div.cards
+            h3 Ballet
+            div.cards-box
+                div.cards-img
+                    img(src="/static/img/3.png")
+                
+                div.cards-content
+                    p Dance every performance as if it were your last...    

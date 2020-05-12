@@ -1,0 +1,51 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+      include ../static/styleFacility.css
+block content
+    div.container
+        h1 Facilities
+            h2 A space uniquely designed for dance....
+            p A multi-purpose or a dual-purpose space may seem financially expedient but it does not fully meet the needs of dance. The different demands on the floor surface make for rapid deterioration of a dual-use dance and drama space. 
+                
+                 
+            h2 Security
+            p A dance studio is a major asset. It may, in time, contain much valuable equipment. Its floor surface can be easily damaged. For safety as well as security it is essential that it can be securely locked.
+                
+                
+            h2 Access to drinking water
+            p Working dancers need frequent liquid intake to replenish the loss caused by  exertion. A drinking water fountain close at hand is invaluable.
+                 
+            h2 Access to IT
+            p Use of IT is becoming increasingly incorporated into dance teaching and  should be considered from the outset. Plenty of electric sockets for charging cameras and laptops/computers is vital for dance learning.
+    section#missionoSection
+        h1 Our Studios...
+        div.cardo
+            h3 Studio Antara
+            div.cardo-box
+                div.cardo-img
+                    img(src="/static/img/Studio Antara.jpg")
+                
+                //- div.cardo-content
+                //-     p Dancing is like dreaming with your feet!!
+        div.cardo
+            h3 Studio Bina
+            div.cardo-box
+                div.cardo-img
+                    img(src="/static/img/Studio Bina.jpg")
+                
+                //- div.cardo-content
+                //-     p People come to see beauty, and I dance to give it to them...
+        div.cardo
+            h3 Studio Rajeswari
+            div.cardo-box
+                div.cardo-img
+                    img(src="/static/img/Studio.jpg")
+                
+                //- div.cardo-content
+                //-     p Dance every performance as if it were your last...               

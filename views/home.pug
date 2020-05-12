@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#introSection
+        div.colori Welcome to  Dance'O'Academia
+        div.small Eat Sleep DANCE Repeat
+    
+    section#missionSection
+        h2 Our Mantra
+        div.card
+            h3 Any Body Can Dance...
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                
+                div.card-content
+                    p We train peoples of every age to live their passions DANCING...
+        div.card
+            h3 Dance Your Way...
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                
+                div.card-content
+                    p Furnish your style of dancing.Show the audience your way of Dancing...
+        div.card
+            h3 Expert Teaching...
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                
+                div.card-content
+                    p Experienced teaching faculties are available to train peoples to Perfection!! 
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/img/cox.svg",alt="Travel Partner", class="spImage")
+            img(src="/static/img/wiggy.png",alt="Food & Beverages Partner", class="spImage")
+            img(src="/static/img/tseries.png",alt="Streaming Partner", class="spImage")
+            img(src="/static/img/spotify.png",alt="Music Partner", class="spImage")
