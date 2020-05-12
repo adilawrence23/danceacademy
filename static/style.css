@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Cut|Permanent+Marker&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#loading{
+    position:fixed;
+    width:100%;
+    height:100vh;
+    background:white 
+    url('https://acegif.com/wp-content/uploads/loading-9.gif')
+    no-repeat center;
+    z-index: 9999;
+}
+#logo{
+    display:flex;
+    align-items: center;
+    margin:0 14px;
+    color:white;
+    font-size: 25px;
+    margin-right: 40px;
+}
+#logo img{
+    height:42px;
+    /* filter:invert(1); */
+}
+#navbar{
+    padding:13px 14px;
+    font-family: 'Nova Cut', cursive;
+    background-color: rgba(10, 7, 7, 0.733);
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+
+}
+#navbar li a{
+    text-decoration: none;
+    color:white;
+    padding: 13px 30px;
+    font-size: 26px;
+    font-weight: bold;
+}
+#navbar li a:hover{
+    color:black;
+   
+}
+#introSection{
+    padding-bottom: 35px;
+    font-family: 'Permanent Marker', cursive;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), center / cover no-repeat url("/static/vlog.jpg");
+    /* z-index: -1; */
+    /* opacity:0.9; */
+    height:425px;
+    
+}
+
+#introSection div.small{
+    font-size: 35px;
+    padding:5px;
+
+}
+
+#sponsorsSection{
+    background-color: rgba(27, 27, 24, 0.808);
+    height:350px;
+    
+}
+
+#sponsorsSection h2{
+    font-family: 'Nova Cut', cursive;
+    text-align: center;
+    padding-top:15px;
+    font-size: 32px;
+    font-weight: bold;
+}
+#missionSection{
+    background-color:white;
+    height:390px;
+    width:100%;
+    padding-top: 12px;
+    margin:auto;
+}
+.card{
+    background: rgba(248, 227, 227, 0.849);
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 26%;
+    height: 230px;
+    margin: 20px 21px;
+    margin-left: 65px;
+    margin-top: 35px;
+    transition: all 0.8s ease-in-out;
+}
+.card:hover{
+    transform:scale(1.2);
+
+}
+.card h3{
+    text-align: center;
+    margin:12px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+.card-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: cursive;
+}
+.card-img{
+    height:115px;
+    padding:0 9px;
+    margin:5px 4px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#missionSection h2{
+    font-family: 'Nova Cut', cursive;
+    text-align: center;
+    padding-top:15px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#footer{
+    display:flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height:50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.colori{
+    animation:colorDanceOVlog 1s infinite;
+}
+@keyframes colorDanceOVlog{
+    0%{color:white;}
+    25%{color:lightgreen;}
+    50%{color:lightpink;}
+    100%{color:lightsalmon;}
+}
+#sponsors{
+    height: 235px;
+    max-width: 1000px;
+    margin: 20px auto;
+    margin-left: 200px;
+
+}
+.spImage{
+    height:80%;
+    margin:20px;
+    transition: all 0.5s ease-in-out;
+}
+.spImage:hover{
+    transform:scale(1.2);
+
+}

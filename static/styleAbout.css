@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Cut|Permanent+Marker&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+   text-align: center;
+   margin:12px 0;
+   font-family: 'Permanent Marker', cursive;
+   font-size: 35px;
+   font-weight: bold;
+}
+.container{
+    justify-content: center;
+    min-height: 80vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin:0;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), center / cover no-repeat url("/static/unsp.jpg");
+    height:100%;
+    color:white;
+    opacity: 0.87;
+    z-index: -1;
+
+}
+.container h2{
+    text-align: center;
+    margin:12px 0;
+    font-family: 'Nova Cut', cursive;
+    font-size:32px;
+    font-weight:bold;
+}
+.container h3{
+    text-align: center;
+    margin:12px 0;
+    font-family: 'Nova Cut', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container p{
+    text-align: center;
+    margin:12px 0;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+
+
+
+#missionsSection{
+    background-color:white;
+    height:450px;
+    width:100%;
+    padding-top: 12px;
+    margin:auto;
+}
+.cards{
+    background: rgba(248, 227, 227, 0.849);
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 125px;
+    width: 26%;
+    height: 230px;
+    margin: 20px 21px;
+    margin-left: 65px;
+    margin-top: 35px;
+    transition: all 0.8s ease-in-out;
+}
+.cards:hover{
+    transform:scale(1.2);
+
+}
+.cards h3{
+    text-align: center;
+    margin:12px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+.cards-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: cursive;
+}
+.cards-img{
+    height:115px;
+    padding:0 9px;
+    margin:5px 4px;
+}
+.cards-img img{
+    height: inherit;
+}
+.cards-content{
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#missionsSection h2{
+    font-family: 'Nova Cut', cursive;
+    text-align: center;
+    padding-top:15px;
+    font-size: 32px;
+    font-weight: bold;
+}
